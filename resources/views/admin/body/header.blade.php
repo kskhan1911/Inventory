@@ -381,7 +381,9 @@
                     <a class="dropdown-item d-block" href="#"><span class="mt-1 badge bg-success float-end">11</span><i class="align-middle ri-settings-2-line me-1"></i> Settings</a>
                     <a class="dropdown-item" href="#"><i class="align-middle ri-lock-unlock-line me-1"></i> Lock screen</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item text-danger" href="#"><i class="align-middle ri-shut-down-line me-1 text-danger"></i> Logout</a>
+
+                    <a class="dropdown-item text-danger" href="{{ route('admin.logout') }}"><i class="align-middle ri-shut-down-line me-1 text-danger"></i> Logout</a>
+
                 </div>
             </div>
 
